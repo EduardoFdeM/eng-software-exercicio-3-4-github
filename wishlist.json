@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "titulo": "Arquitetura Limpa",
+    "autor": "Robert C. Martin",
+    "preco": 89.90,
+    "status": "desejado"
+  },
+  {
+    "id": 2,
+    "titulo": "Domain-Driven Design",
+    "autor": "Eric Evans",
+    "preco": 115.00,
+    "status": "desejado"
+  }
+]
