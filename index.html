@@ -29,6 +29,9 @@
       padding: 16px;
       box-shadow: 0 1px 3px rgba(0,0,0,0.05);
     }
+    .wishlist-card {
+      border-left: 4px solid #f59e0b;
+    }
     .book-title { font-weight: 700; font-size: 1.15rem; color: #1e293b; }
     .book-author { color: #64748b; font-size: 0.95rem; margin-top: 4px; }
     .book-price { color: #059669; font-weight: 700; margin-top: 8px; font-size: 1.05rem; }
@@ -59,6 +62,22 @@
         <div class="book-price">R$ 64,00</div>
       </div>
     </div>
+
+    <section style="margin-top: 36px;">
+      <h2>⭐ Lista de Desejos (Wishlist)</h2>
+      <div class="catalog-grid" id="wishlist">
+        <div class="book-card wishlist-card">
+          <div class="book-title">Arquitetura Limpa</div>
+          <div class="book-author">Robert C. Martin</div>
+          <div class="book-price">R$ 89,90</div>
+        </div>
+        <div class="book-card wishlist-card">
+          <div class="book-title">Domain-Driven Design</div>
+          <div class="book-author">Eric Evans</div>
+          <div class="book-price">R$ 115,00</div>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 </html>
