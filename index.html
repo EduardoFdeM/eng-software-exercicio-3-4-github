@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livraria Simples</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #1e293b;
+      background-color: #f8fafc;
+    }
+    header {
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 { margin: 0 0 8px 0; color: #0f172a; }
+    p.subtitle { margin: 0; color: #64748b; font-size: 1rem; }
+    .catalog-grid { display: grid; gap: 16px; }
+    .book-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .book-title { font-weight: 700; font-size: 1.15rem; color: #1e293b; }
+    .book-author { color: #64748b; font-size: 0.95rem; margin-top: 4px; }
+    .book-price { color: #059669; font-weight: 700; margin-top: 8px; font-size: 1.05rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 Livraria Simples</h1>
+    <p class="subtitle">Demonstração de fluxo GitHub - Branches, Commits, PR e Merge</p>
+  </header>
+
+  <main>
+    <h2>Catálogo de Livros</h2>
+    <div class="catalog-grid" id="catalog">
+      <div class="book-card">
+        <div class="book-title">Código Limpo</div>
+        <div class="book-author">Robert C. Martin</div>
+        <div class="book-price">R$ 85,00</div>
+      </div>
+      <div class="book-card">
+        <div class="book-title">O Programador Pragmático</div>
+        <div class="book-author">Andrew Hunt & David Thomas</div>
+        <div class="book-price">R$ 92,00</div>
+      </div>
+      <div class="book-card">
+        <div class="book-title">Entendendo Algoritmos</div>
+        <div class="book-author">Aditya Bhargava</div>
+        <div class="book-price">R$ 64,00</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
